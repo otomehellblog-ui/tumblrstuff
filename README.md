@@ -21,12 +21,10 @@ button {
     outline: 1px solid transparent;
     border: 1px solid transparent;
     padding: 0;
-    
     background: inherit;
     font-size: inherit;
     font-family: inherit;
     color: inherit;
-
     cursor: pointer;
 }
 
@@ -109,15 +107,12 @@ iframe.tmblr-iframe {
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
-
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     background: rgba(from var(--clr-background) r g b / 0.5);
-
     overflow: auto;
-
     z-index: 1000;
     transition: all 0.7s ease-in-out;
 }
@@ -151,13 +146,11 @@ iframe.tmblr-iframe {
     display: flex;
     align-items: center;
     justify-content: center;
-
     background: var(--clr-accent-2);
     color: var(--clr-container);
     border: 1px solid var(--clr-borders);
     padding: 0.45rem;
     border-radius: 0.4rem;
-
     transition: all 0.7s ease-in-out;
 }
 
@@ -172,7 +165,6 @@ iframe.tmblr-iframe {
     gap: 1rem;
     background: var(--clr-container);
     border: 1px solid var(--clr-borders);
-
     position: absolute;
     bottom: 0;
     right: 0;
@@ -309,7 +301,6 @@ iframe.tmblr-iframe {
     height: 3px;
     background: var(--clr-accent);
     z-index: -1;
-
     position: absolute;
     bottom: 0;
     left: 0;
@@ -359,7 +350,6 @@ iframe.tmblr-iframe {
     display: flex;
     align-items: center;
     justify-content: center;
-
     padding: 0.5rem;
     border: 1px solid var(--clr-borders);
     background: var(--clr-accent);
@@ -406,7 +396,6 @@ iframe.tmblr-iframe {
     padding: 0.5rem;
     border-radius: 100vw;
     background: var(--clr-accent);
-
     position: absolute;
     bottom: 0;
     left: 0;
@@ -435,12 +424,9 @@ iframe.tmblr-iframe {
     background: var(--clr-container);
     border-right: 1px solid var(--clr-borders);
     height: 100svh;
-
-
     position: fixed;
     top: 0;
     left: 0;
-
     transition: all 0.9s ease-in-out;
 }
 
@@ -454,7 +440,6 @@ iframe.tmblr-iframe {
     display: flex;
     align-items: center;
     justify-content: center;
-
     background: var(--clr-accent);
     color: var(--clr-container);
     padding: 0.4rem;
@@ -468,7 +453,6 @@ iframe.tmblr-iframe {
 .sidebar-nav {
     display: flex;
     flex-direction: column;
-
     margin-inline: 1rem;
     padding: 0.5rem;
     background: var(--clr-background);
@@ -480,7 +464,6 @@ iframe.tmblr-iframe {
     background-repeat: no-repeat;
     background-size: 0 100%;
     transition: all 0.7s ease-in-out;
-
     padding: 0.7rem 0.5rem;
     border-radius: 0.4rem;
 }
@@ -529,13 +512,11 @@ iframe.tmblr-iframe {
     display: flex;
     align-items: center;
     justify-content: center;
-
     padding: 0.5rem;
     background: var(--clr-accent);
     color: var(--clr-container);
     border: 1px solid var(--clr-borders);
     border-radius: 50%;
-
     transition: all 0.7s ease-in-out;
 }
 
@@ -560,13 +541,11 @@ iframe.tmblr-iframe {
     display: flex;
     align-items: center;
     justify-content: center;
-
     background: var(--clr-text);
     color: var(--clr-background);
     padding: 0.4rem;
     border: 1px solid var(--clr-borders);
     border-radius: 0.4rem;
-
     transition: all 0.7s ease-in-out;
 }
 
