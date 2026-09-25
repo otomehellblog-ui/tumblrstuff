@@ -61,7 +61,7 @@ h2 {
 }
 
 p:not(:last-child) {
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.5rem;
 }
 
 ul[role="list"], ol[role="list"] {
