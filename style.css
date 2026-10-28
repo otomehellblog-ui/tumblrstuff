@@ -256,7 +256,7 @@ iframe.tmblr-iframe {
 }
 
 .stat {
-    flex-basis: calc(50% - 0.2rem);
+    flex-basis: calc(50% - 0.6rem);
 }
 
 .stat b {
